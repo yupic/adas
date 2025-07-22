@@ -1,2 +1,4 @@
 # adas
-AdAS Spectrum questionnaire
+Русская версия опросника AdAS Spectrum
+
+Перевод опросника: [Джумка](https://t.me/na_spektre/196)
