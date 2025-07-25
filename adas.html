@@ -438,7 +438,7 @@
 
     <script>
         // Отладочная переменная
-        const DEBUG = false; // Измените на false для отключения отладки
+        const DEBUG = window.location.hash === '#DEBUG'; // Автоматически включается при добавлении #DEBUG в URL
 
         // Данные о разделах и вопросах
         const sections = [
@@ -741,11 +741,11 @@
                         <div class="options">
                             <label class="option yes">
                                 <input type="radio" name="q${questionNumber}" value="1" required>
-                                <span class="option-label">😊 ДА</span>
+                                <span class="option-label">✅ ДА</span>
                             </label>
                             <label class="option no">
                                 <input type="radio" name="q${questionNumber}" value="0" required>
-                                <span class="option-label">💔 НЕТ</span>
+                                <span class="option-label">❌ НЕТ</span>
                             </label>
                         </div>
                     `;
